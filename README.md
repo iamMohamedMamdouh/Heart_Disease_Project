@@ -11,3 +11,5 @@ This project performs a complete Machine Learning workflow to analyze and predic
 - Hyperparameter Tuning (GridSearchCV, RandomizedSearchCV)
 - Streamlit Web UI for Real-time Predictions
 - Ngrok deployment for online access
+
+## Note: The data Folder replaced by heart+disease Folder
