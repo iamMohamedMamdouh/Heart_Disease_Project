@@ -1,0 +1,13 @@
+1. Run the Streamlit app:
+   cd ui
+   streamlit run app.py
+
+2. Open a new terminal and run:
+   ngrok http 8501
+
+3. Copy and share the generated public URL (e.g., https://xxxx.ngrok-free.app)
+
+Note:
+- You must keep the terminal running to keep the app live.
+- Make sure the model path is correct in app.py:
+  model = joblib.load("../models/final_model.pkl")
